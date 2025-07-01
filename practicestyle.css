@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* center horizontally */
+    align-items: center;
+    /* center vertically */
+    background-color: #fdf5e6;
+    /* optional: background color */
+}
+
+
+
+.cookie-area {
+    text-align: center;
+
+}
+
+#reset-button {
+    position: absolute;
+    /* take it out of normal flow */
+    top: 20px;
+    /* move it down from the top */
+    right: 30px;
+    /* move it away from the right edge */
+    padding: 12px 20px;
+    /* make it bigger inside */
+    font-size: 25px;
+    /* make text larger */
+    background-color: #ffcc99;
+    /* fun color */
+    border: none;
+    border-radius: 8px;
+    /* rounded corners */
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    /* slight shadow */
+    transition: 0.2s ease;
+    /* smooth hover */
+}
+
+#reset-button:hover {
+    background-color: #ffaa66;
+    /* change color when hovered */
+}
+
+body {
+    position: relative;
+    overflow: hidden;
+}
+
+.mini-cookie {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url('COOKIE.png');
+    /* Use your cookie image */
+    background-size: cover;
+    pointer-events: none;
+    animation: flyAndFall 1s ease-out forwards;
+    z-index: 999;
+}
+
+@keyframes flyAndFall {
+    0% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+
+    50% {
+        transform: translateY(-100px) scale(1.2);
+    }
+
+    100% {
+        transform: translateY(50px) scale(0.8);
+        opacity: 0;
+    }
+}
+
+#double-button {
+    position: absolute;
+    /* take it out of normal flow */
+    top: 100px;
+    /* move it down from the top */
+    right: 30px;
+    /* move it away from the right edge */
+    padding: 12px 20px;
+    /* make it bigger inside */
+    font-size: 25px;
+    /* make text larger */
+    background-color: #ffcc99;
+    /* fun color */
+    border: none;
+    border-radius: 8px;
+    /* rounded corners */
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    /* slight shadow */
+    transition: 0.2s ease;
+    /* smooth hover */
+}
+
+#double-button:hover {
+    background-color: #ffaa66;
+    /* change color when hovered */
+}
+
+#double-button.active {
+    background-color: red;
+}
+
+
+#grandma {
+    position: absolute;
+    /* take it out of normal flow */
+    top: 180px;
+    /* move it down from the top */
+    right: 30px;
+    /* move it away from the right edge */
+    padding: 12px 20px;
+    /* make it bigger inside */
+    font-size: 25px;
+    /* make text larger */
+    background-color: #ffcc99;
+    /* fun color */
+    border: none;
+    border-radius: 8px;
+    /* rounded corners */
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    /* slight shadow */
+    transition: 0.2s ease;
+    /* smooth hover */
+}
+
+#grandma:hover {
+    background-color: #ffaa66;
+    /* change color when hovered */
+}
+
+
+
+#grandma.active {
+    background-color: red;
+}
+
+#grandma2 {
+    position: absolute;
+    /* take it out of normal flow */
+    top: 265px;
+    /* move it down from the top */
+    right: 30px;
+    /* move it away from the right edge */
+    padding: 12px 20px;
+    /* make it bigger inside */
+    font-size: 25px;
+    /* make text larger */
+    background-color: #ffcc99;
+    /* fun color */
+    border: none;
+    border-radius: 8px;
+    /* rounded corners */
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    /* slight shadow */
+    transition: 0.2s ease;
+    /* smooth hover */
+}
+
+#grandma2:hover {
+    background-color: #ffaa66;
+    /* change color when hovered */
+}
+
+
+
+#grandma2.active {
+    background-color: red;
+}
+
+.bakery-name-setup {
+    text-align: center;
+    margin: 20px;
+}
+
+#name-input {
+    padding: 8px;
+    font-size: 16px;
+}
+
+#name-button {
+    padding: 8px 12px;
+    font-size: 16px;
+    margin-left: 8px;
+    cursor: pointer;
+}
